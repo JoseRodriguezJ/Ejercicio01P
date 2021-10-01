@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //creacion dentro de la carpeta de values
+    <style name="textoestilo">
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+    //para herencia del anterior
+    <style name="textoverde" parent="textoestilo">
+        <item name="android:textColor">@android:color/holo_green_light</item>
+    </style>
+</resources>
